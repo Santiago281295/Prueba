@@ -1,0 +1,22 @@
+{
+  "name": "application-name",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "license": "Apache",
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "http-errors": "^1.7.0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.16.0"
+  }
+}
